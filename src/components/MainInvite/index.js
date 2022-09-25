@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import mainFace from '../../assets/images/marcia.png';
+import mainFace from '../../assets/images/marcia.webp';
 import { RegisterModal } from '../RegisterModal';
 import { ContentArea, CopyContent, MainContainerBody, MainContent, MainInviteContainer, PictureArea, SendButton } from './styles';
 
