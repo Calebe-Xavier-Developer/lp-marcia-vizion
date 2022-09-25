@@ -15,6 +15,10 @@ export const MainInviteContainer = styled.main`
   background-color: #0C161F;
   padding-top: 80px;
   overflow: hidden;
+
+  @media only screen and (max-width: 1000px) {
+    height: 100%;
+  }
 `;
 
 export const MainContent = styled.div`
@@ -52,6 +56,7 @@ export const PictureArea = styled.div`
   }
   @media only screen and (max-width: 1000px) {
     width: 100%;
+    min-height: 200px;
   }
 `;
 
