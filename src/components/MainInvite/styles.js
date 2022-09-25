@@ -13,7 +13,6 @@ export const MainInviteContainer = styled.main`
   box-sizing: border-box;
   height: 100vh;
   background-color: #0C161F;
-  /* ${props => props.modalOpen && 'opacity: 0.5'}; */
   padding-top: 80px;
   overflow: hidden;
 `;
@@ -41,7 +40,6 @@ export const PictureArea = styled.div`
   background-color: transparent;
 
   div{
-    /* flex-basis: 350px; */
     width: 100%;
 
     img{
@@ -112,11 +110,11 @@ export const ContentArea = styled.div`
     width: 100%;
      align-items: center;
     p{
-      font-size: 18px;
+      font-size: 14px;
       text-align: center;
     }
     h2{
-      font-size: 28px;
+      font-size: 22px;
       text-align: center;
     }
   }
