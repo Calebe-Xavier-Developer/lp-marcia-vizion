@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import MainInvite from '../../components/MainInvite';
+import MainGroup from '../../components/MainGroup';
 
 const MainPage = () => {
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/inscreva-se-na-semana" exact element={<MainInvite />} />
-        <Route path="*" element={<Navigate replace to="/inscreva-se-na-semana" />} />
+        <Route path="/" exact element={<MainGroup />} />
+        <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </BrowserRouter>
   );
